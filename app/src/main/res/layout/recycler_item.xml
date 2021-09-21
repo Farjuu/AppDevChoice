@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+
+    android:layout_gravity="center"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="20dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/recycler_img1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/recyleritem"
+        android:layout_margin="2dp"
+        android:src="@mipmap/ic_launcher_round">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/recycler_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:paddingTop="90dp"
+        android:text="@string/name"
+
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android Dev Choice</string>
+    <string name="recyleritem">recyleritem</string>
+    <string name="name">name</string>
+    <string name="appicon">appICON</string>
+</resources>
