@@ -5,7 +5,7 @@ public class Item {
     private String imageName;
     private String siteURl;
 
-    public Item(int imageId, String imageName,String siteURl) {
+    public Item(int imageId, String imageName, String siteURl) {
         this.imageId = imageId;
         this.imageName = imageName;
         this.siteURl = siteURl;
@@ -27,7 +27,12 @@ public class Item {
         this.imageName = imageName;
     }
 
-    public String getSiteURl(){ return  siteURl;}
-    public void setSiteURl(String siteURl){ this.siteURl = siteURl;}
+    public String getSiteURl() {
+        return siteURl;
+    }
+
+    public void setSiteURl(String siteURl) {
+        this.siteURl = siteURl;
+    }
 
 }

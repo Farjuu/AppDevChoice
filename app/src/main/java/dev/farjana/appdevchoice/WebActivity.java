@@ -37,7 +37,7 @@ public class WebActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webView.loadUrl(URL);
         webView.setWebViewClient(new WebviewController());
-        safeBrowsingIsInitialized = false;
+       safeBrowsingIsInitialized = false;
 
         if (WebViewFeature.isFeatureSupported(WebViewFeature.START_SAFE_BROWSING)) {
             WebViewCompat.startSafeBrowsing(this, success -> {
